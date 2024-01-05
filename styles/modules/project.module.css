@@ -1,0 +1,126 @@
+.projectTitle {
+    font-size: 45px;
+    text-align: center;
+    user-select: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 70px;
+    color: #59E659;
+}
+
+.box1 {
+    color: #fff;
+    /* border: 2px solid #FF69B4; */
+    /* margin: 100px 30px 100px 200px; */
+    margin: 80px 40px 80px 100px;
+    text-align: center;
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 5px 1px #a556b4; */
+    box-shadow: 4px 4px 6px 0 #c42fe2,  -3px -3px 6px 0 #59E659;
+}
+
+.box2 {
+    color: #fff;
+    /* border: 2px solid #FF69B4; */
+    /* margin: 100px 150px 100px 100px; */
+    margin: 80px 130px 80px 40px;
+    text-align: center;
+    border-radius: 30px;
+    padding-bottom: 40px;
+    /* box-shadow: 0px 0px 5px 1px #B941FF; */
+    box-shadow: 4px 4px 6px 0 #c42fe2,  -3px -3px 6px 0 #59E659;
+}
+
+.box3 {
+    color: #fff;
+    /* border: 2px solid #FF69B4; */
+    /* margin: 100px 30px 100px 200px; */
+    margin: 40px 40px 80px 100px;
+    text-align: center;
+    border-radius: 30px;
+    /* box-shadow: 0px 0px 5px 1px #a556b4; */
+    box-shadow: 4px 4px 6px 0 #c42fe2,  -3px -3px 6px 0 #59E659;
+    
+}
+
+.box4 {
+    color: #fff;
+    /* border: 2px solid #FF69B4; */
+    /* margin: 100px 150px 100px 100px; */
+    margin: 40px 130px 80px 40px;
+    text-align: center;
+    border-radius: 30px;
+    padding-bottom: 40px;
+    /* box-shadow: 0px 0px 5px 1px #B941FF; */
+    box-shadow: 4px 4px 6px 0 #c42fe2,  -3px -3px 6px 0 #59E659;
+}
+
+.container {
+    /* border: 2px solid #fff; */
+    display: flex;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.container2 {
+    /* border: 2px solid #fff; */
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.projectName {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.techStack1 {
+    font-size: 17px;
+    color: goldenrod;
+    margin-bottom: 27px;
+}
+
+.techStack2 {
+    font-size: 17px;
+    color: goldenrod;
+    margin-bottom: 10px;
+    padding: 0 80px;
+}
+
+
+.techStack3 {
+    font-size: 17px;
+    color: goldenrod;
+    margin-bottom: 25px;
+    padding: 0 80px;
+}
+
+.projectDescription {
+    font-size: 17px;
+    color: #a3a2a2;
+    margin-bottom: 30px;
+    padding: 0 30px;
+}
+
+.projectLink {
+    font-size: 17px;
+    font-size: 17px;
+    padding: 2px 15px 5px 15px;
+    border-radius: 15px;
+    border-color: #fff;
+    color: #fff;
+    /* margin-bottom: 40px; */
+    cursor: pointer;
+    border: 2px solid #B941FF;
+    box-shadow: 0px 0px 5px 1px #B941FF;
+    user-select: none;
+}
+
+.projectLink:hover {
+    background-color: #B941FF; 
+     color: #ffffff;
+     box-shadow: none;
+}
