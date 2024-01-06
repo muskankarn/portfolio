@@ -10,11 +10,11 @@ import "aos/dist/aos.css";
 
 const ImgSlider = () => {
   const homePageSmallImg1 = {
-    margin: "20px 100px 50px 60px",
+    margin: "20px 100px 50px 130px",
   };
 
   const homePageSmallImg = {
-    margin: "0 100px 50px 0",
+    margin: "0 140px 50px 0",
   };
   useEffect(() => {
     AOS.init();
@@ -54,14 +54,7 @@ const ImgSlider = () => {
         width={150}
         height={150}
       ></Image>
-      <Image
-        data-aos="slide-up"
-        style={homePageSmallImg}
-        src="/img/www.png"
-        alt="Image not found"
-        width={150}
-        height={150}
-      ></Image>
+      
     </>
   );
 };
