@@ -26,7 +26,15 @@ const Project = () => {
             <p className={styles.projectDescription}>
               A Compilation of academic and professional materials including my
               interests, skills, qualifications and education.
-            </p>
+            </p> 
+
+            <Link
+              href="https://muskankumari.vercel.app/"
+              className={styles.projectLink}
+              target="_blank"
+            >
+            Visit the website ➡
+            </Link>
             <button className={styles.projectLink}>Visit the website ➡</button>
           </div>
         </div>
