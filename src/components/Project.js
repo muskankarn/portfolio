@@ -35,7 +35,6 @@ const Project = () => {
             >
             Visit the website ➡
             </Link>
-            <button className={styles.projectLink}>Visit the website ➡</button>
           </div>
         </div>
 
