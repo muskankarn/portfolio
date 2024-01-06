@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/Image";
+import Image from "next/image";
 import styles from "../styles/modules/index.module.css";
 import Header from "../src/components/Header";
 import About from "../src/components/About";
@@ -9,7 +9,7 @@ import Contact from "../src/components/Contact";
 import Project from "../src/components/Project";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Link from 'next/Link';
+import Link from 'next/link';
 
 
 const index = () => {
