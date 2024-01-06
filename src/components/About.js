@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import React,{useEffect} from "react";
 // importing aos
 import AOS from 'aos';
