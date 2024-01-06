@@ -7,7 +7,6 @@ import ImgSlider from "../src/components/ImgSlider";
 import Skills from "../src/components/Skills";
 import Contact from "../src/components/Contact";
 import Project from "../src/components/Project";
-// import Contact from "../src/components/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from 'next/Link';
@@ -33,11 +32,10 @@ const index = () => {
             with great user experiences.
           </p>
 
-          <button className={styles.button}>
-          <Link href='/Project' className={styles.otherHeader}>My projects ➡</Link></button>
-          <button className={styles.button} type="button">
-            Contact me ➡
-          </button>
+          
+          <Link href='/project' className={styles.button}>My projects ➡</Link>
+          <Link href='/contact' className={styles.button}>Contact me ➡</Link>
+          
         </div>
         <Image
           className={styles.profilePic}

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../styles/modules/project.module.css";
+import Link from "next/Link";
 // import Image from "next/Image";
 
 const Project = () => {
@@ -45,7 +46,13 @@ const Project = () => {
               It retrieves data or text from the user and generates a QR code of
               the input with 100% of an accuracy.
             </p>
-            <button className={styles.projectLink}>Visit the website ➡</button>
+            <Link
+              href="https://qr-code-generator-uxd1.vercel.app/"
+              className={styles.projectLink}
+              target="_blank"
+            >
+            Visit the website ➡
+            </Link>
           </div>
         </div>
       </div>
@@ -64,7 +71,13 @@ const Project = () => {
               A CodePen clone, allows coding in HTML, CSS, and JavaScript with
               browser-based local storage functionality.
             </p>
-            <button className={styles.projectLink}>Visit the website ➡</button>
+            <Link
+              href="https://code-editor-cwg.netlify.app/"
+              className={styles.projectLink}
+              target="_blank"
+            >
+              Visit the website ➡
+            </Link>
           </div>
         </div>
 
@@ -81,7 +94,13 @@ const Project = () => {
               A platform designed to provide up-to-date information on the
               spread of the coronavirus worldwide.
             </p>
-            <button className={styles.projectLink}>Visit the website ➡</button>
+            <Link
+              href="https://covid-cwg.netlify.app/"
+              className={styles.projectLink}
+              target="_blank"
+            >
+              Visit the website ➡
+            </Link>
           </div>
         </div>
       </div>

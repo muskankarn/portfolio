@@ -4,7 +4,7 @@
   user-select: none;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-left: 70px;
   color: #59E659;
 }
@@ -63,4 +63,5 @@
   border-radius: 20px;
   margin-left: 50px;
   margin-top: 30px;
+  text-decoration: none;
 }

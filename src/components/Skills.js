@@ -57,12 +57,12 @@ const skills = () => {
           <div className={styles.container}>
             <Image
               className={styles.imgStyle}
-              src="/img/html1.png"
+              src="/img/php4.png"
               alt="Image not found"
-              width={100}
+              width={120}
               height={100}
             />
-            <pre className={styles.nameStyle1}>Html5</pre>
+            <pre className={styles.nameStyle1}>PHP</pre>
           </div>
           </div>
 
@@ -75,7 +75,7 @@ const skills = () => {
               width={100}
               height={98}
             />
-            <p className={styles.nameStyle4}>React</p>
+            <p className={styles.nameStyle4}>React.js</p>
           </div>
           <div className={styles.container}>
             <Image
@@ -102,12 +102,12 @@ const skills = () => {
           <div className={styles.container}>
             <Image
               className={styles.imgStyle}
-              src="/img/html1.png"
+              src="/img/Mysql.png"
               alt="Image not found"
               width={100}
               height={100}
             />
-            <pre className={styles.nameStyle1}>Html5</pre>
+            <pre className={styles.nameStyle1}>MySQL</pre>
           </div>
           </div>
 

@@ -11,8 +11,8 @@ const Header = (props) => {
         <Link href='/' className={styles.headerFirst}>HOME</Link>
         <Link href='/about' className={styles.otherHeader}>ABOUT</Link>
         <Link href='/skills' className={styles.otherHeader}>SKILLS</Link>
-        <Link href='/Project' className={styles.otherHeader}>PROJECT</Link>
-        <Link href='/Contact' className={styles.otherHeader}>CONTACT</Link>
+        <Link href='/project' className={styles.otherHeader}>PROJECT</Link>
+        <Link href='/contact' className={styles.otherHeader}>CONTACT</Link>
        </header>
     </>
   )

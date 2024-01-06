@@ -4,7 +4,7 @@
     user-select: none;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 70px;
     color: #59E659;
 }
@@ -13,7 +13,7 @@
     color: #fff;
     /* border: 2px solid #FF69B4; */
     /* margin: 100px 30px 100px 200px; */
-    margin: 80px 40px 80px 100px;
+    margin: 80px 40px 20px 100px;
     text-align: center;
     border-radius: 30px;
     /* box-shadow: 0px 0px 5px 1px #a556b4; */
@@ -24,7 +24,7 @@
     color: #fff;
     /* border: 2px solid #FF69B4; */
     /* margin: 100px 150px 100px 100px; */
-    margin: 80px 130px 80px 40px;
+    margin: 80px 130px 20px 40px;
     text-align: center;
     border-radius: 30px;
     padding-bottom: 40px;
@@ -66,8 +66,8 @@
 .container2 {
     /* border: 2px solid #fff; */
     display: flex;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    /* margin-top: 0px; */
+    /* margin-bottom: 50px; */
 }
 
 .projectName {
@@ -117,6 +117,7 @@
     border: 2px solid #B941FF;
     box-shadow: 0px 0px 5px 1px #B941FF;
     user-select: none;
+    text-decoration: none;
 }
 
 .projectLink:hover {

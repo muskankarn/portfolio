@@ -21,10 +21,16 @@ const contact = () => {
             Want to start new project? Or just say hey.
           </article>
           <article className={styles.article2}>
-          You can also follow me on LinkedIn.
+            You can also follow me on LinkedIn.
           </article>
 
-          <button className={styles.btn}>LinkedIn</button>
+          <Link
+            href="https://www.linkedin.com/in/muskan-kumari-25a38a251/"
+            className={styles.btn}
+            target="_blank"
+          >
+            LinkedIn
+          </Link>
         </section>
 
         <div>

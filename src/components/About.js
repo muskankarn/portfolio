@@ -3,7 +3,6 @@ import React,{useEffect} from "react";
 // importing aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import styles from "../styles/modules/about.module.css";
 import styles from  "../../styles/modules/about.module.css";
 
 
